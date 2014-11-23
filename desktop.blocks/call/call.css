@@ -1,0 +1,15 @@
+.call
+{
+	font-family: PT Sans;
+	color: #404040;
+}
+
+.call__text
+{
+	font-size: 17px;
+}
+
+.call__phone
+{
+	font-size: 30px;
+}

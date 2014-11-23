@@ -17,7 +17,8 @@
                     elem : 'leftarrow'
                 },
                 {
-                    elem : 'photo'
+                    block : 'image',
+                    mix : { block : 'photoslider', elem : 'photo' }
                 },
                 {
                     elem : 'rightarrow'
@@ -52,11 +53,7 @@
                 },
                 {
                     elem : 'text',
-                    content : 'При заказе пяти яблок с 1 по 8 марта 2013 года, вы получаете серебрянную подвеску Caterpillar Charm в виде червячка в подарок.'
-                },
-                {
-                    tag : 'a',
-                    content :  'Подробнее об условиях акции.'
+                    content : 'При заказе пяти яблок с 1 по 8 марта 2013 года, вы получаете серебрянную подвеску Caterpillar Charm в виде червячка в подарок. <a>Подробнее об условиях акции.</a>'
                 }
             ]
         },
@@ -67,11 +64,16 @@
                     block : 'copyrights',
                     content : [
                         {
-                            elem : 'img'
+                            block : 'image',
+                            mix : { block : 'copyrights', elem : 'image' }
                         },
                         {
                             elem : 'text',
-                            content : '&copy; 2006-2012 Magic Apple.'
+                            content : '@ 2006-2012 MagicApple Store.'
+                        },
+                        {
+                            elem : 'text',
+                            content : 'design by Centroarts.com'
                         }
                     ]
                 },

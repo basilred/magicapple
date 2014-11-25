@@ -1,5 +1,7 @@
 .call
 {
+	width: 50%;
+	float: right;
 	font-family: PT Sans;
 	color: #404040;
 }

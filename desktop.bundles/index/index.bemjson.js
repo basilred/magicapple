@@ -65,7 +65,8 @@
                     content : [
                         {
                             block : 'image',
-                            mix : { block : 'copyrights', elem : 'image' }
+                            mix : { block : 'copyrights', elem : 'image' },
+                            url : '../../desktop.blocks/copyrights/copyrights.gif'
                         },
                         {
                             elem : 'text',

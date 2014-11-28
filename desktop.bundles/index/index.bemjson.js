@@ -72,7 +72,7 @@
                             content : '@ 2006-2012 MagicApple Store.'
                         },
                         {
-                            elem : 'text',
+                            elem : 'design',
                             content : 'design by Centroarts.com'
                         }
                     ]

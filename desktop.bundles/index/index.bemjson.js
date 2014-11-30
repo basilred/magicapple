@@ -48,6 +48,11 @@
             block : 'ad',
             content : [
                 {
+                    block : 'image',
+                    mix : { block : 'ad', elem : 'image' },
+                    url : '../../desktop.blocks/ad/advert.gif'
+                },
+                {
                     elem : 'header',
                     content : 'Серебрянная подвеска бесплатно'
                 },

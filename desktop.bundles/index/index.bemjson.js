@@ -41,7 +41,15 @@
         {
             block : 'sections',
             content : [
-                'Three sections'
+                {
+                    elem : 'love'
+                },
+                {
+                    elem : 'fitness'
+                },
+                {
+                    elem : 'youth'
+                }
             ]
         },
         {

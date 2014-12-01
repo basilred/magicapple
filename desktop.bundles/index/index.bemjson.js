@@ -61,12 +61,19 @@
                     url : '../../desktop.blocks/ad/advert.gif'
                 },
                 {
-                    elem : 'header',
-                    content : 'Серебрянная подвеска бесплатно'
-                },
-                {
-                    elem : 'text',
-                    content : 'При заказе пяти яблок с 1 по 8 марта 2013 года, вы получаете серебрянную подвеску Caterpillar Charm в виде червячка в подарок. <a>Подробнее об условиях акции.</a>'
+                    block : 'desc',
+                    content : [
+                        {
+                            elem : 'header',
+                            mix : { block : 'ad', elem : 'header' },
+                            content : 'Серебрянная подвеска бесплатно'
+                        },
+                        {
+                            elem : 'text',
+                            mix : { block : 'ad', elem : 'text' },
+                            content : 'При заказе пяти яблок с 1 по 8 марта 2013 года, вы получаете серебрянную подвеску Caterpillar Charm в виде червячка в подарок. <a>Подробнее об условиях акции.</a>'
+                        }
+                    ]
                 }
             ]
         },

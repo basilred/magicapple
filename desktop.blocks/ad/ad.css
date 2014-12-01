@@ -1,6 +1,8 @@
 .ad
 {
 	background-color: #f8f8f8;
-	height: 118px;
-	padding-top: 56px;
+	height: 174px;
+	display: flex;
+	align-items: center;
+	/*padding-top: 56px;*/
 }

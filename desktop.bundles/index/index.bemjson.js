@@ -56,12 +56,15 @@
             block : 'ad',
             content : [
                 {
-                    block : 'image',
-                    mix : { block : 'ad', elem : 'image' },
-                    url : '../../desktop.blocks/ad/advert.gif'
+                    elem : 'image',
+                    content : {
+                        block : 'image',
+                        url : '../../desktop.blocks/ad/advert.gif'
+                    }
                 },
                 {
                     block : 'desc',
+                    mix : { block : 'ad', elem : 'desc' },
                     content : [
                         {
                             elem : 'header',

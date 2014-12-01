@@ -2,7 +2,9 @@
 {
 	background-color: #f8f8f8;
 	height: 174px;
+	width: 100%;
 	display: flex;
 	align-items: center;
-	/*padding-top: 56px;*/
+
+	box-shadow: inset 0px 1px 0px 0px rgba(229, 229, 229, 1);
 }

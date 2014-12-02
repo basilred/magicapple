@@ -169,7 +169,7 @@
                         {
                             block : 'image',
                             mix : { block : 'copyrights', elem : 'image' },
-                            url : '../../desktop.blocks/copyrights/copyrights.gif'
+                            url : '../../desktop.blocks/copyrights/copyrights.png'
                         },
                         {
                             elem : 'text',

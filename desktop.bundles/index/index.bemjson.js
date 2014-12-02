@@ -48,7 +48,8 @@
                     content : [
                         {
                             block : 'image',
-                            mix : { block : 'sections', elem : 'image' }
+                            mix : { block : 'sections', elem : 'image' },
+                            url : '../../desktop.blocks/sections/love.png'
                         },
                         {
                             elem : 'description',
@@ -76,7 +77,8 @@
                     content : [
                         {
                             block : 'image',
-                            mix : { block : 'sections', elem : 'image' }
+                            mix : { block : 'sections', elem : 'image' },
+                            url : '../../desktop.blocks/sections/fitness.png'
                         },
                         {
                             elem : 'description',
@@ -104,7 +106,8 @@
                     content : [
                         {
                             block : 'image',
-                            mix : { block : 'sections', elem : 'image' }
+                            mix : { block : 'sections', elem : 'image' },
+                            url : '../../desktop.blocks/sections/youth.png'
                         },
                         {
                             elem : 'description',
@@ -136,7 +139,7 @@
                     elem : 'image',
                     content : {
                         block : 'image',
-                        url : '../../desktop.blocks/ad/advert.gif'
+                        url : '../../desktop.blocks/ad/advert.png'
                     }
                 },
                 {

@@ -14,14 +14,16 @@
             block : 'photoslider',
             content : [
                 {
-                    elem : 'leftarrow'
+                    elem : 'leftarrow',
+                    content : '<'
                 },
                 {
                     block : 'image',
                     mix : { block : 'photoslider', elem : 'photo' }
                 },
                 {
-                    elem : 'rightarrow'
+                    elem : 'rightarrow',
+                    content : '>'
                 }
             ]
         },
@@ -42,13 +44,88 @@
             block : 'sections',
             content : [
                 {
-                    elem : 'love'
+                    elem : 'section',
+                    content : [
+                        {
+                            block : 'image',
+                            mix : { block : 'sections', elem : 'image' }
+                        },
+                        {
+                            elem : 'description',
+                            content : [
+                                {
+                                    elem : 'caption',
+                                    tag : 'h3',
+                                    content : 'Любовь'
+                                },
+                                {
+                                    elem : 'text',
+                                    tag : 'p',
+                                    content : 'Покорите сердце любимого человека!'
+                                },
+                                {
+                                    block : 'button',
+                                    text : 'Купить'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    elem : 'fitness'
+                    elem : 'section',
+                    content : [
+                        {
+                            block : 'image',
+                            mix : { block : 'sections', elem : 'image' }
+                        },
+                        {
+                            elem : 'description',
+                            content : [
+                                {
+                                    elem : 'caption',
+                                    tag : 'h3',
+                                    content : 'Похудение'
+                                },
+                                {
+                                    elem : 'text',
+                                    tag : 'p',
+                                    content : 'Держите себя в форме и будьте красивыми'
+                                },
+                                {
+                                    block : 'button',
+                                    text : 'Купить'
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    elem : 'youth'
+                    elem : 'section',
+                    content : [
+                        {
+                            block : 'image',
+                            mix : { block : 'sections', elem : 'image' }
+                        },
+                        {
+                            elem : 'description',
+                            content : [
+                                {
+                                    elem : 'caption',
+                                    tag : 'h3',
+                                    content : 'Молодость'
+                                },
+                                {
+                                    elem : 'text',
+                                    tag : 'p',
+                                    content : 'Станьте моложе и привлекательнее'
+                                },
+                                {
+                                    block : 'button',
+                                    text : 'Купить'
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },

@@ -4,4 +4,5 @@
 	height: 64px;
 	background-image: url(../arrow.svg);
 	background-size: cover;
+	opacity: 0.2;
 }

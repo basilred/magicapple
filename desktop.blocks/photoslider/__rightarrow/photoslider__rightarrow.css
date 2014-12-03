@@ -1,0 +1,7 @@
+.photoslider__rightarrow
+{
+	width: 64px;
+	height: 64px;
+	background-image: url(../arrow.svg);
+	background-size: cover;
+}

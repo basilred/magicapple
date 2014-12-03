@@ -14,16 +14,14 @@
             block : 'photoslider',
             content : [
                 {
-                    elem : 'leftarrow',
-                    content : '<'
+                    elem : 'leftarrow'
                 },
                 {
                     block : 'image',
                     mix : { block : 'photoslider', elem : 'photo' }
                 },
                 {
-                    elem : 'rightarrow',
-                    content : '>'
+                    elem : 'rightarrow'
                 }
             ]
         },

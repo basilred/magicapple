@@ -170,12 +170,17 @@
                             url : '../../desktop.blocks/copyrights/copyrights.png'
                         },
                         {
-                            elem : 'text',
-                            content : '@ 2006-2012 MagicApple Store.'
-                        },
-                        {
-                            elem : 'design',
-                            content : 'design by Centroarts.com'
+                            elem : 'description',
+                            content : [
+                                {
+                                    elem : 'text',
+                                    content : '@ 2006-2012 MagicApple Store.'
+                                },
+                                {
+                                    elem : 'design',
+                                    content : 'design by Centroarts.com'
+                                }
+                            ]
                         }
                     ]
                 },

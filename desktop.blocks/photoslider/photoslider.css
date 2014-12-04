@@ -1,4 +1,7 @@
 .photoslider
 {
 	margin-bottom: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

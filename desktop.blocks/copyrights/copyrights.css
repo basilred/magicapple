@@ -1,8 +1,11 @@
 .copyrights
 {
-	width: 50%;
-	float: left;
+	/*width: 50%;
+	float: left;*/
 	font-family: Tahoma;
 	font-size: 13px;
 	color: #6c6c6c;
+
+	display: flex;
+	align-items: center;
 }

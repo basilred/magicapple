@@ -155,6 +155,11 @@
                             content : 'При заказе пяти яблок с 1 по 8 марта 2013 года, вы получаете серебрянную подвеску Caterpillar Charm в виде червячка в подарок. <a>Подробнее об условиях акции.</a>'
                         }
                     ]
+                },
+                {
+                    block : 'image',
+                    mix : { block : 'ad', elem : 'rightimage' },
+                    url : '../../desktop.blocks/ad/right.png'
                 }
             ]
         },

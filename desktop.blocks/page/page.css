@@ -3,4 +3,8 @@
 	font-family: Myriad Pro;
 	display: flex;
 	flex-direction: column;
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 76px;
 }

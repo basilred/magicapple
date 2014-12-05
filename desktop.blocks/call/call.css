@@ -2,11 +2,12 @@
 {
 	font-family: Myriad Pro;
 	color: #404040;
+	margin-right: 25px;
 }
 
 .call__text
 {
-	font-size: 17px;
+	font-size: 15.6px;
 }
 
 .call__phone

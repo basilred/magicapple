@@ -191,19 +191,35 @@
                     ]
                 },
                 {
-                    block : 'call',
+                    elem : 'contacts',
                     content : [
                         {
-                            elem : 'text',
-                            content : 'Консультации по телефону'
-                        },
-                        {
-                            elem : 'phone',
-                            content : '8 800 1000 801'
+                            block : 'call',
+                            content : [
+                                {
+                                    elem : 'text',
+                                    content : 'Консультации по телефону'
+                                },
+                                {
+                                    elem : 'phone',
+                                    content : '8 800 1000 801'
+                                }
+                            ]
                         },
                         {
                             block : 'social',
-                            // mods : { 'facebook', 'twitter' }
+                            content : [
+                                {
+                                    block : 'image',
+                                    mix : { block : 'social', elem : 'fb' },
+                                    url : '../../desktop.blocks/footer/fb.png'
+                                },
+                                {
+                                    block : 'image',
+                                    mix : { block : 'social', elem : 'twitter' },
+                                    url : '../../desktop.blocks/footer/twitter.png'
+                                }
+                            ]
                         }
                     ]
                 }

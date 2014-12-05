@@ -18,7 +18,8 @@
                 },
                 {
                     block : 'image',
-                    mix : { block : 'photoslider', elem : 'photo' }
+                    mix : { block : 'photoslider', elem : 'photo' },
+                    url : '../../desktop.blocks/photoslider/girl.jpg'
                 },
                 {
                     elem : 'rightarrow'

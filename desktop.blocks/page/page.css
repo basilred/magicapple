@@ -1,5 +1,6 @@
 .page
 {
+	font-family: Myriad Pro;
 	display: flex;
 	flex-direction: column;
 }

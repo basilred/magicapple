@@ -65,6 +65,7 @@
                                 },
                                 {
                                     block : 'button',
+                                    mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
                                 }
                             ]
@@ -94,6 +95,7 @@
                                 },
                                 {
                                     block : 'button',
+                                    mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
                                 }
                             ]
@@ -123,6 +125,7 @@
                                 },
                                 {
                                     block : 'button',
+                                    mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
                                 }
                             ]

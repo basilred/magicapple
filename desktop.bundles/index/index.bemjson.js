@@ -64,14 +64,18 @@
                                     content : 'Покорите сердце любимого человека!'
                                 },
                                 {
-                                    block : 'button',
-                                    mix : { block : 'sections', elem : 'button' },
-                                    text : 'Купить'
-                                },
-                                {
-                                    elem : 'price',
-                                    tag : 'span',
-                                    content : '99$'
+                                    block : 'superbutton',
+                                    content : [
+                                        {
+                                            block : 'button',
+                                            mix : { block : 'sections', elem : 'button' },
+                                            text : 'Купить'
+                                        },
+                                        {
+                                            elem : 'price',
+                                            content : '99$'
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -99,14 +103,18 @@
                                     content : 'Держите себя в форме и будьте красивыми'
                                 },
                                 {
-                                    block : 'button',
-                                    mix : { block : 'sections', elem : 'button' },
-                                    text : 'Купить'
-                                },
-                                {
-                                    elem : 'price',
-                                    tag : 'span',
-                                    content : '99$'
+                                    block : 'superbutton',
+                                    content : [
+                                        {
+                                            block : 'button',
+                                            mix : { block : 'sections', elem : 'button' },
+                                            text : 'Купить'
+                                        },
+                                        {
+                                            elem : 'price',
+                                            content : '99$'
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -134,14 +142,18 @@
                                     content : 'Станьте моложе и привлекательнее'
                                 },
                                 {
-                                    block : 'button',
-                                    mix : { block : 'sections', elem : 'button' },
-                                    text : 'Купить'
-                                },
-                                {
-                                    elem : 'price',
-                                    tag : 'span',
-                                    content : '99$'
+                                    block : 'superbutton',
+                                    content : [
+                                        {
+                                            block : 'button',
+                                            mix : { block : 'sections', elem : 'button' },
+                                            text : 'Купить'
+                                        },
+                                        {
+                                            elem : 'price',
+                                            content : '99$'
+                                        }
+                                    ]
                                 }
                             ]
                         }

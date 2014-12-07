@@ -1,0 +1,6 @@
+.superbutton
+{
+	display: flex;
+	cursor: pointer;
+	align-items: stretch;
+}

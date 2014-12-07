@@ -1,0 +1,20 @@
+.superbutton__price
+{
+	background-color: #1d1d1d;
+	color: white;
+	font-size: 13px;
+	padding-top: 6px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.superbutton__price:after
+{
+	position: absolute;
+	content: '';
+	width: 25px;
+	height: 25px;
+	transform: translate(-6.5px, -6px) scale(.7) rotate(45deg);
+	background-color: #1d1d1d;
+	z-index: -1;
+}

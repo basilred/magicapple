@@ -1,11 +1,14 @@
 .sections__button
 {
+	display: flex;
+
 	height: 25px;
 	font-size: 13px;
 	background-color: #444;
 	color: white;
 	border: none;
 	margin-left: 14px;
+	margin-right: 0;
 	outline: none;
 	cursor: pointer;
 }

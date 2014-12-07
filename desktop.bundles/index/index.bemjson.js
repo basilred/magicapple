@@ -67,6 +67,11 @@
                                     block : 'button',
                                     mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
+                                },
+                                {
+                                    elem : 'price',
+                                    tag : 'span',
+                                    content : '99$'
                                 }
                             ]
                         }
@@ -97,6 +102,11 @@
                                     block : 'button',
                                     mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
+                                },
+                                {
+                                    elem : 'price',
+                                    tag : 'span',
+                                    content : '99$'
                                 }
                             ]
                         }
@@ -127,6 +137,11 @@
                                     block : 'button',
                                     mix : { block : 'sections', elem : 'button' },
                                     text : 'Купить'
+                                },
+                                {
+                                    elem : 'price',
+                                    tag : 'span',
+                                    content : '99$'
                                 }
                             ]
                         }

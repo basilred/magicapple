@@ -5,4 +5,13 @@
 	background-image: url(../arrow.svg);
 	background-size: cover;
 	opacity: 0.2;
+
+	cursor: pointer;
+	transition: all 0.1s ease;
 }
+
+.photoslider__rightarrow:hover
+{
+	transform: scale(1.25);
+}
+

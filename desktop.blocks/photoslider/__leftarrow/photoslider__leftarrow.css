@@ -6,4 +6,12 @@
 	background-size: cover;
 	transform: rotate(180deg);
 	opacity: 0.2;
+
+	cursor: pointer;
+	transition: all 0.1s ease;
+}
+
+.photoslider__leftarrow:hover
+{
+	transform: rotate(180deg) scale(1.25);
 }
